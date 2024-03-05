@@ -1,6 +1,6 @@
-package es.neesis.annotations.services;
+package es.neesis.services;
 
-import es.neesis.annotations.exceptions.OperationNotFound;
+import es.neesis.exceptions.OperationNotFound;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,7 +1,7 @@
-package es.neesis.annotations.applications;
+package es.neesis.applications;
 
-import es.neesis.annotations.exceptions.OperationNotFound;
-import es.neesis.annotations.services.ICalculadoraService;
+import es.neesis.exceptions.OperationNotFound;
+import es.neesis.services.ICalculadoraService;
 import org.springframework.stereotype.Component;
 
 import java.util.Scanner;
@@ -18,7 +18,7 @@ public class CalculadoraApplication {
     public void run(){
         Scanner scanner = new Scanner(System.in);
         int operation = -1;
-        while(true){
+        while(operation != 5){
             System.out.print("Bienvenido a la calculadora, selecciona una operación:\n" +
                     "\n" +
                     "Sumar\n" +

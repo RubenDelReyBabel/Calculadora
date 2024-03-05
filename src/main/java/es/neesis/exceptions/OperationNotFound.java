@@ -1,4 +1,4 @@
-package es.neesis.annotations.exceptions;
+package es.neesis.exceptions;
 
 public class OperationNotFound extends Exception{
 
